@@ -1,6 +1,6 @@
 module "swag" {
     source          = "../../"
-    name            = "swag"
+    id            = "swag"
     domain          = "domain.tld"
     subdomains      = "www,"
     email           = "admin@domain.tld"

@@ -13,6 +13,7 @@ packages:
   - gnupg-agent
   - software-properties-common
   - docker.io
+  - docker-compose
 runcmd:
   - bash ${app_context}/run.sh
 write_files:
