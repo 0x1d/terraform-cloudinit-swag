@@ -1,6 +1,7 @@
-variable "name" {
-  description = "Name of the app"
+variable "id" {
+  description = "App ID used as context for cloud-init below /var/apps/"
   type = string
+  default = "compose"
 }
 variable "domain" {
   description = "Domain for reverse proxy and SSL cert"
@@ -38,6 +39,7 @@ variable "challenge_type" {
 variable "ssh_keys" {
   description = "Authorized SSH authorized public keys"
   type        = list
+  default     = []
 }
 
 variable "timezone" {
