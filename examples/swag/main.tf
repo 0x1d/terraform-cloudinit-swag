@@ -8,7 +8,7 @@ module "swag" {
     challenge_type  = "http"
     only_subdomains = "true"
     staging         = "true"
-    ssh_keys        = [file("~/.ssh/id_rsa.pub"),file("~/.ssh/id_rsa.pub")]
+    ssh_keys        = [file("~/.ssh/id_rsa.pub")]
 }
 output "config" {
     value = module.swag.rendered
