@@ -1,0 +1,11 @@
+# Terraform files
+**/.terraform
+**/terraform.tfstate
+**/terraform.tfvars
+**/*.tfstate*
+
+# IntelliJ files
+.idea/
+
+# vscode files
+.history
